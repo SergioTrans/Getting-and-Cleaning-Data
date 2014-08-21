@@ -1,11 +1,17 @@
+```  
 Getting-and-Cleaning-Data
 =========================
 
 Getting and Cleaning Data from Coursera
 
+Hello all,
+This is the README file where the script used is explained.
+I think the comments are explicit enough as I tried to made it simple to read and follow.
+If you want to follow "on the fly", run the script line-by-line while looking at datasets.
+Best regards to all.
 
 
-```# Remember to set your corrent workspace where the folder UCI HAR Database is!!!
+# Remember to set your corrent workspace where the folder UCI HAR Database is!!!
 
 # Reading data from train folder and add on a single table
 TrainData <- read.table("UCI HAR Dataset/train/X_train.txt")
@@ -63,4 +69,5 @@ FinalData$person <- NULL
 # finally, writing the file from tidy data set in csv format
 write.table(FinalData, "TidyDataSet.txt", sep=",")
 
-# ...That's All Folks!!!```
+# ...That's All Folks!!!
+```
